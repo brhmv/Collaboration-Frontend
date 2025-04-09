@@ -1,0 +1,45 @@
+
+
+.name-img {
+
+
+    .job-title {
+        font-size: 15px;
+        color: #525252;
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+.card-footer-mentor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+.card-footer-mentor .apply {
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #0D1B4D;
+    border: 1px solid #0D1B4D;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+  

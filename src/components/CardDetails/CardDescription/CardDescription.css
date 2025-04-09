@@ -1,0 +1,49 @@
+*{
+    font-family: "Manrope", sans-serif;
+}
+
+
+.card-description {
+    display: flex;
+    justify-content: center;
+    height: 853px;
+    box-shadow: 0px 4px 23.5px 0px #00000040;
+    border-radius: 8px;
+    padding: 30px;
+    .container {
+        .img-description {
+            display: flex;
+
+            img {
+                width: 40%;
+                height: 40%;
+                border-radius: 8px;
+            }
+
+            .description {
+                width: 640px;
+                color: #0D1B4D;
+
+                .general {
+                    .heading {
+                        font-size: 24px;
+                    }
+
+                    .project-details {
+                        font-size: 18px;
+                        margin: 10px 0;
+                        line-height: 30px;
+                    }
+                }
+                
+            }
+        }
+
+        .project-duration {
+            p {
+                
+            }
+        }
+    }
+}
+

@@ -1,0 +1,87 @@
+
+
+
+.profile-container {
+    height: 181px;
+    box-shadow: 0px 4px 23.5px 0px #00000040;
+    display: flex;
+    margin: auto;
+    top: 130px;
+    border-radius: 8px;
+
+    .container {
+        padding: 0 8.5%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 30px;
+
+        .details {
+            .project-name{
+                font-size: 24px;
+                color: #0D1B4D;
+                font-weight: 450;
+            }
+
+            .photo-name {
+                display: flex;
+                align-items: center;
+                margin: 6.25px 0;
+
+                .user-name{
+                    font-size: 20px;
+                    font-weight: 450;
+                }
+                img {
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 100px;
+                    margin-right: 10px;
+                }
+            }
+
+            .date {
+                background-color: #000000;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 187px;
+                height: 33px;
+
+                .application-date {
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+
+        }
+
+        .profile-icons {
+            max-width: 102px;
+            height: 46px;
+            display: flex;
+            gap: 10px;
+            margin: 11px 0;
+
+
+
+            .share-icon, .save-icon {
+                width: 46px;
+                height: 46px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
