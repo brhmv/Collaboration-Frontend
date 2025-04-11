@@ -13,6 +13,7 @@
 }
 
 @theme inline {
+    /* --breakpoin*/
     --breakpoint-*: initial;
     --breakpoint-sm: 40rem;
     --breakpoint-md: 52rem;
@@ -20,6 +21,7 @@
     --breakpoint-xl: 80rem;
     --breakpoint-2xl: 1440px;
     --breakpoint-3xl: 1920px;
+    /* --color*/
     --color-blue-turing: var(--blue-turing);
     --color-green-03: var(--green-03);
     --color-red: var(--red);
@@ -28,6 +30,7 @@
     --font-mono: var(--font-geist-mono);
     --font-lexend: var(--font-lexend);
 }
+
 
 @media (prefers-color-scheme: dark) {
     :root {

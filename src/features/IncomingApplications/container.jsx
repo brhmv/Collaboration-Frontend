@@ -1,5 +1,5 @@
 import React from 'react';
-import IncomingProjectApplicationCard from './ui/IncomingProjectApplicationCard';
+import IncomingProjectApplicationCard from './ui/IncomingApplicationCard';
 import { IncomingProjectApplicationContent } from './data/mock__data';
 
 function IncomingProjectApplications() {

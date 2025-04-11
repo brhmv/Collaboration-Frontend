@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router"
-import AppealsPageNavbar from "../../features/AppealsPageNavbar/container"
+import AppealsPageNavbar from "@/features/ApplicationPageNavbar/container"
 
 
 function AppealsPage() {
