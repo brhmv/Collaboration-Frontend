@@ -1,8 +1,3 @@
-*{
-    font-family: "Manrope", sans-serif;
-}
-
-
 .home-container {
     h1 {
         font-weight: 500;
@@ -13,7 +8,7 @@
 
     .cards {
         max-width: 1385px;
-        margin: 20px auto 0 auto ;
+        margin: 20px auto 0 auto;
         margin-top: 80px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -22,24 +17,22 @@
     }
 }
 
-
-
 .navbar {
     font-family: "Manrope", sans-serif;
     max-width: 1440px;
     margin: auto;
     height: 110px;
     display: flex;
-    padding: 30px 72px ;
+    padding: 30px 72px;
     justify-content: space-between;
 
     .logo img {
         width: 112.96295928955078px;
         height: 50px;
-    
+
     }
 
-    .controlPanel{
+    .controlPanel {
         display: flex;
         justify-content: space-between;
         width: 156px;
@@ -67,7 +60,7 @@
 
 .header {
 
-    .container{
+    .container {
         max-width: 660px;
         height: 140px;
         margin: auto;
@@ -90,8 +83,8 @@
                 align-items: center;
                 justify-content: center;
                 gap: 16px;
-                
-                
+
+
             }
 
 
@@ -105,8 +98,8 @@
                 justify-content: center;
                 gap: 16px;
             }
-            
-            
+
+
         }
 
 
@@ -161,15 +154,17 @@
                 gap: 16px;
 
 
-                .dropdown{
+                .dropdown {
                     cursor: pointer;
                     position: relative;
-                    p{
+
+                    p {
                         display: flex;
                         align-items: center;
                         font-weight: 550;
                     }
-                    ul{
+
+                    ul {
                         position: absolute;
                         background-color: white;
                         border-radius: 8px;
@@ -178,9 +173,10 @@
                         box-shadow: 0px 0px 28.1px 0px #00000033;
                         width: 110px;
                         height: 126px;
-                
+
                     }
-                    li{
+
+                    li {
                         margin: 10px 0;
                         height: 30px;
                         font-size: 16px;
@@ -188,8 +184,9 @@
                         padding-left: 5px;
                         display: flex;
                         align-items: center;
-                
+
                     }
+
                     li:hover {
                         background-color: #FFDCCF;
                         color: 1px solid #FFC8B4;
@@ -226,7 +223,7 @@
             box-sizing: border-box;
             display: flex;
             position: relative;
-        
+
             img {
                 min-width: 400px;
                 height: 285px;
@@ -234,16 +231,17 @@
                 border-top-left-radius: 8px;
                 z-index: -1;
             }
-        
-            .icons-name{
-                .icons{
+
+            .icons-name {
+                .icons {
                     width: 100%;
                     height: 100%;
                     position: absolute;
                     top: 0;
                     left: 0;
                 }
-                .share{
+
+                .share {
                     position: absolute;
                     left: 20px;
                     top: 20px;
@@ -256,7 +254,8 @@
                     height: 20px;
                     width: 20px;
                 }
-                .bookmark{
+
+                .bookmark {
                     position: absolute;
                     right: 20px;
                     top: 20px;
@@ -269,15 +268,16 @@
                     height: 20px;
                     width: 20px;
                 }
+
                 .card-name {
                     width: 53px;
                     height: 25px;
                     border-radius: 8px;
                     color: white;
                     text-align: center;
-        
-        
-                    p{
+
+
+                    p {
                         position: absolute;
                         bottom: 15px;
                         left: 20px;
@@ -320,7 +320,7 @@
                     border-radius: 100px;
                 }
 
-                .name{
+                .name {
                     font-weight: 500;
                     font-size: 20px;
                 }
@@ -356,15 +356,16 @@
             display: flex;
             position: relative;
 
-            .icons-name{
-                .icons{
+            .icons-name {
+                .icons {
                     width: 100%;
                     height: 100%;
                     position: absolute;
                     top: 0;
                     left: 0;
                 }
-                .share{
+
+                .share {
                     position: absolute;
                     left: 20px;
                     top: 20px;
@@ -377,7 +378,8 @@
                     height: 20px;
                     width: 20px;
                 }
-                .bookmark{
+
+                .bookmark {
                     position: absolute;
                     right: 20px;
                     top: 20px;
@@ -400,14 +402,8 @@
                 border-radius: 8px;
                 color: white;
                 text-align: center;
-                
+
             }
         }
     }
 }
-
-
-
-
-
-

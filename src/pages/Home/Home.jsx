@@ -9,17 +9,17 @@ export default function Home() {
     return (
         <div className='home-container'>
             <Navbar />
-            <Header/>
+            <Header />
             <h1>Layihələr</h1>
             <div className="cards">
-                <Projects/>
-                <Projects/>
-                <Projects/>
-                <Mentorium/>
-                <Mentorium/>
-                <Mentorium/>
+                <Projects />
+                <Projects />
+                <Projects />
+                <Mentorium />
+                <Mentorium />
+                <Mentorium />
             </div>
         </div>
-        
+
     );
 }
