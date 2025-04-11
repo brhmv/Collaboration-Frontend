@@ -1,4 +1,3 @@
-
 import './HomeCardProjects.css';
 import { IoShareSocialOutline } from "react-icons/io5";
 import { GoBookmark } from "react-icons/go";
@@ -35,7 +34,7 @@ const HomeCardProjects = () => {
         </div>
         <div className="card-footer">
           <Link to='#'>
-          <button className='detailed'>Ətraflı</button>
+            <button className='detailed'>Ətraflı</button>
           </Link>
           <button className='apply'>Müraciət et</button>
         </div>
