@@ -1,7 +1,7 @@
 import React from 'react'
-import IncomingProjectApplications from '../../../features/IncomingProjectApplications/container'
-import SendedApplications from '../../../features/SendedApplications/container'
-import TabNavigation from '../../../components/TabNavigation'
+import IncomingProjectApplications from '@/features/IncomingApplications/container'
+import SendedApplications from '@/features/SendedApplications/container'
+import TabNavigation from '@/components/TabNavigation'
 const TabNavigationContent = [
     {
         id: 0,

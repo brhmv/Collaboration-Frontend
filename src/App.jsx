@@ -1,10 +1,11 @@
 import { Route, Routes } from 'react-router'
 import './App.css'
-import Home from './pages/Home/Home';
-import CardDetails from './pages/CardDetails/CardDetails';
-import AppealsPage from './pages/AppealsPage/page';
-import ProjectsPage from './pages/AppealsPage/ProjectAppealsPage/page';
-import MentoriumsPage from './pages/AppealsPage/MentoriumAppealsPage/page';
+
+import HomePage from './pages/HomePage/Home'
+import CardDetailsPage from '@/pages/CardDetailsPage/CardDetails';
+import ApplicationsPage from '@/pages/ApplicationsPage/page';
+import ProjectApplicationsPage from '@/pages/ApplicationsPage/ProjectApplicationsPage/page';
+import MentoriumApplicationsPage from '@/pages/ApplicationsPage/MentoriumApplicationsPage/page';
 
 
 
@@ -13,13 +14,13 @@ function App() {
   return (
     <div className='custom-container-fluid-clamped custom-container-centered'>
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/cardDetails" element={<CardDetails />} />
-        <Route path="/appeals" element={<AppealsPage />}>
-          <Route index element={<ProjectsPage />} />
-          <Route path="projects" element={<ProjectsPage />} />
-          <Route path="mentoriums" element={<MentoriumsPage />} />
+        <Route index element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/cardDetails" element={<CardDetailsPage />} />
+        <Route path="/applications" element={<ApplicationsPage />}>
+          <Route index element={<ProjectApplicationsPage />} />
+          <Route path="projects" element={<ProjectApplicationsPage />} />
+          <Route path="mentoriums" element={<MentoriumApplicationsPage />} />
         </Route>
       </Routes>
     </div>
