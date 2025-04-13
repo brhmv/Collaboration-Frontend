@@ -5,6 +5,7 @@
 @import '@/styles/colors.css';
 /* @import '@/styles/resets.css'; */
 @import '@/styles/container.css';
+@import '@/styles/border.css';
 
 @import "tailwindcss";
 
