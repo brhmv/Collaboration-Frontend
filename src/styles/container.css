@@ -4,8 +4,8 @@
     margin-right: auto;
     margin-left: auto;
 
-    padding-right: 4vw;
-    padding-left: 4vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
 }
 
 
@@ -35,7 +35,7 @@
 
 @media (min-width: 1920px) {
     .custom-container {
-        max-width: 1600px;
+        max-width: 1920px;
     }
 }
 

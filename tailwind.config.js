@@ -8,7 +8,11 @@ export default {
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
-    },
-    plugins: [],
+        extend: {
+            letterSpacing: {
+                percent11: '-0.11em',
+            },
+        },
+        plugins: [],
+    }
 };

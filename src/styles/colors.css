@@ -7,13 +7,19 @@
     --gray-eb: #EBEBEB;
     --gray-d9: #D9D9D9;
     --green-03: #039F00;
-    --green-00: #00B800;
-    --red: #BF2323;
+    --green-10: #00B800;
+    --green-15: #00B8001F;
+    --red-10: #FC2B2B;
+    --red-15: #FC2B2B1F;
+    --red-20: #BF2323;
+
     --yellow: #E89913;
+    --orange-10: #FFAD23;
+    --orange-15: #FFA0001F;
 }
 
 @theme inline {
-    /* --breakpoin*/
+    /* --breakpoint*/
     --breakpoint-*: initial;
     --breakpoint-sm: 40rem;
     --breakpoint-md: 52rem;
@@ -24,8 +30,15 @@
     /* --color*/
     --color-blue-turing: var(--blue-turing);
     --color-green-03: var(--green-03);
-    --color-red: var(--red);
+    --color-red-20: var(--red-20);
     --color-gray-d6: var(--gray-d6);
+    --color-orange-10: var(--orange-10);
+    --color-orange-15: var(--orange-15);
+    --color-green-10: var(--green-10);
+    --color-green-15: var(--green-15);
+    --color-red-10: var(--red-10);
+    --color-red-15: var(--red-15);
+    /* --font */
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
     --font-lexend: var(--font-lexend);
@@ -42,9 +55,14 @@
         --gray-eb: #EBEBEB;
         --gray-d9: #D9D9D9;
         --green-03: #039F00;
-        --green-00: #00B800;
-        --red: #BF2323;
+        --green-10: #00B800;
+        --green-15: #00B8001F;
+        --red-10: #FC2B2B;
+        --red-15: #FC2B2B1F;
+        --red-20: #BF2323;
+
         --yellow: #E89913;
-        --gray-d6: #D6D8E1;
+        --orange-10: #FFAD23;
+        --orange-20: #FFA0001F;
     }
 }

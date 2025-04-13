@@ -4,7 +4,7 @@ import { VscChromeClose } from "react-icons/vsc";
 
 function RejectButton() {
     return (
-        <button className="flex items-center justify-center p-[8px] rounded-[8px] bg-red">
+        <button className="flex items-center justify-center p-[8px] rounded-[8px] bg-red-20">
             <VscChromeClose className='text-white  text-[17px]' />
         </button>
     )

@@ -12,7 +12,8 @@ import MentoriumApplicationsPage from '@/pages/ApplicationsPage/MentoriumApplica
 function App() {
 
   return (
-    <div className='custom-container-fluid-clamped custom-container-centered'>
+    <div className='custom-container'>
+
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
@@ -24,6 +25,7 @@ function App() {
         </Route>
       </Routes>
     </div>
+
   )
 }
 

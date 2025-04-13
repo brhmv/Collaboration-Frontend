@@ -1,25 +1,26 @@
 import React from 'react'
-import IncomingProjectApplications from '@/features/IncomingApplications/container'
+import IncomingApplications from '@/features/IncomingApplications/container'
 import SendedApplications from '@/features/SendedApplications/container'
 import TabNavigation from '@/components/TabNavigation'
-const TabNavigationContent = [
-    {
-        id: 0,
-        text: "Gələn müraciətlər",
+import { useSelector } from 'react-redux'
+import { selectActiveTab } from '@/redux/slices/tabSlice/index'
 
-    },
-    {
-        id: 1,
-        text: "Göndərilən müraciətlər",
 
-    },
-]
+const TabNavigationContent = [{ id: 0, text: "Gələn müraciətlər" }, { id: 1, text: "Göndərilən müraciətlər" }]
 function ProjectsPage() {
+
+    const activeTab = useSelector(selectActiveTab);
+
     return (
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center ", alignItems: "center" }}>
+        <div className="flex flex-col justify-center items-center">
             <TabNavigation tabs={TabNavigationContent} />
-            <IncomingProjectApplications />
-            <SendedApplications />
+            {
+                activeTab == 0 ? (
+                    <IncomingApplications />
+                ) : (
+                    <SendedApplications />
+                )
+            }
         </div>
     )
 }

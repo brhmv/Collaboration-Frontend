@@ -2,4 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scrollbar-color: initial !important;
+    scrollbar-width: initial !important;
+}
+
+*::-webkit-scrollbar {
+    all: initial !important;
+}
+
+*::-webkit-scrollbar-button {
+    all: initial !important;
+}
+
+*::-webkit-scrollbar-track {
+    all: initial !important;
+}
+
+*::-webkit-scrollbar-track-piece {
+    all: initial !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    all: initial !important;
+}
+
+*::-webkit-scrollbar-corner {
+    all: initial !important;
+}
+
+*::-webkit-resizer {
+    all: initial !important;
 }

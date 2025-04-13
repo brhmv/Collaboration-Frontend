@@ -1,12 +1,25 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { setActiveTab, selectActiveTab } from '@/redux/slices/tabSlice/index';
 
 function TabNavigation({ tabs }) {
-    const activeTab = "Gələn müraciətlər" //temp
+
+    const activeTab = useSelector(selectActiveTab);
+    const dispatch = useDispatch();
+
+    const handleTabClick = (tabText) => {
+        dispatch(setActiveTab(tabText));
+    };
+
     return (
-        <ul className="flex gap-6 p-2 px-4 rounded-full shadow-lg w-max mt-5 mb-5 md:mt-20 md:mb-20">
+        <ul className="flex  flex-col md:flex-row items-center  w-max gap-[clamp(18px,3vw,24px)] p-2 px-4 md:rounded-[51px] md:shadow-lg  mt-5 mb-5 md:mt-20 md:mb-20">
             {
                 tabs && tabs.map((item) => (
-                    <li key={item.id} className={`rounded-full py-3 md:py-4 px-5 md:px-11 font-medium text-sm md:text-base cursor-pointer transition-all duration-200 w-max ${activeTab === item.text ? "bg-blue-900 text-white" : "bg-gray-200 text-blue-900 hover:text-white hover:bg-blue-900/50"}`}>
+                    <li
+                        key={item.id}
+                        onClick={() => handleTabClick(item.id)}
+                        className={`whitespace-nowrap rounded-full py-3 md:py-4 px-5 md:px-11 font-medium text-sm md:text-base cursor-pointer transition-all duration-200 w-full text-center ${activeTab === item.id ? "bg-blue-900 text-blue-turing text-white" : "bg-gray-200 text-blue-turing hover:text-white hover:bg-blue-900/50"}`}
+                    >
                         {item.text}
                     </li>
                 ))
