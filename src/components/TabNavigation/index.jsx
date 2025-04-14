@@ -18,7 +18,7 @@ function TabNavigation({ tabs }) {
                     <li
                         key={item.id}
                         onClick={() => handleTabClick(item.id)}
-                        className={`whitespace-nowrap rounded-full py-3 md:py-4 px-5 md:px-11 font-medium text-sm md:text-base cursor-pointer transition-all duration-200 w-full text-center ${activeTab === item.id ? "bg-blue-900 text-blue-turing text-white" : "bg-gray-200 text-blue-turing hover:text-white hover:bg-blue-900/50"}`}
+                        className={`whitespace-nowrap rounded-full py-3 md:py-4 px-5 md:px-11 font-medium text-sm md:text-base cursor-pointer transition-all duration-200 w-full text-center ${activeTab === item.id ? "bg-blue-turing text-blue-turing text-white" : "bg-gray-200 text-blue-turing hover:text-white hover:bg-blue-900/50"}`}
                     >
                         {item.text}
                     </li>

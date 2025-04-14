@@ -6,6 +6,7 @@
 /* @import '@/styles/resets.css'; */
 @import '@/styles/container.css';
 @import '@/styles/border.css';
+@import '@/styles/skeleton.css';
 
 @import "tailwindcss";
 

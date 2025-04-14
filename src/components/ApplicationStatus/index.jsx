@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '../../../../utils/MergeTailwindclasses'
+import { cn } from '@/utils/MergeTailwindclasses'
 
 function ApplicationStatus({ variant }) {
 
