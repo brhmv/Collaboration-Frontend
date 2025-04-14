@@ -11,12 +11,13 @@ function IncomingApplicationCard({ name, position, date, time, projectName }) {
     return (
         <div className="gap-[clamp(20px,4vw,32px)] border min-w-max border-gray-200 flex p-4 md:p-5 rounded-lg  h-full items-center justify-between">
             <div className="flex flex-col gap-4">
-                <div className="flex gap-1 md:gap-1.5 items-center justify-start h-full">
+                <div className="flex gap-1 md:gap-1.5 items-center justify-start h-full ">
                     <img
                         src={mockProfile}
                         alt="mock profile photo"
-                        className=" lg:h-10 rounded-full"
+                        className="skeleton lg:h-10 rounded-full"
                     />
+
                     <div className="flex flex-col h-full text-left justify-center">
                         <h3 className="text-sm md:text-base lg:text-xl font-medium truncate max-w-[15ch]">
                             {name}

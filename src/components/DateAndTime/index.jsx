@@ -9,7 +9,7 @@ function DateAndTime({ date, time }) {
                 alt="clock icon orange"
                 className=""
             />
-            <div className="text-[8px,1vw,12px] font-light flex items-center justify-center gap-0.5">
+            <div className="text-[clamp(8px,1vw,12px)] font-light flex items-center justify-center gap-0.5">
                 <div>
                     {date}
                 </div>
