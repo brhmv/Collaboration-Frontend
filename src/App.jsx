@@ -6,6 +6,7 @@ import CardDetailsPage from '@/pages/CardDetailsPage/CardDetails';
 import ApplicationsPage from '@/pages/ApplicationsPage/page';
 import ProjectApplicationsPage from '@/pages/ApplicationsPage/ProjectApplicationsPage/page';
 import MentoriumApplicationsPage from '@/pages/ApplicationsPage/MentoriumApplicationsPage/page';
+import SavedPage from './pages/ApplicationsPage/SavedPage/page';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route index element={<ProjectApplicationsPage />} />
           <Route path="projects" element={<ProjectApplicationsPage />} />
           <Route path="mentoriums" element={<MentoriumApplicationsPage />} />
+          <Route path="saved" element={<SavedPage />} />
         </Route>
       </Routes>
     </div>
