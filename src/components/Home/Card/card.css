@@ -1,0 +1,216 @@
+.container {
+    width: 400px;
+    height: 546px;
+
+    .cardHeader {
+        width: 400px;
+        height: 285px;
+
+        .bgImg {
+            img {
+                width: 400px;
+                height: 285px;
+                border-top-right-radius: 8px;
+                border-top-left-radius: 8px;
+            }
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+
+            .share {
+                position: relative;
+                bottom: 270px;
+                left: 15px;
+                width: 46px;
+                height: 46px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100px;
+
+                svg {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+
+
+            .bookmark {
+                position: relative;
+                bottom: 270px;
+                right: 15px;
+                width: 46px;
+                height: 46px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100px;
+
+                svg {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+
+
+        .cardName {
+            background-color: #FF4400;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            width: 80px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #FF4400;
+            border-radius: 8px;
+            padding: 3px 6px;
+            position: relative;
+            bottom: 90px;
+            left: 15px;
+
+            .cardType {
+                font-size: 15px;
+                font-weight: 400;
+                color: white;
+            }
+        }
+    }
+
+
+    .cardMain {
+
+        .description-main{
+
+            .topic {
+                color: #0D1B4D;
+                font-weight: 450;
+                font-size: 24px;
+                margin: 10px 0;
+            }
+
+            .topicDescription {
+                font-weight: 450;
+                font-size: 14px;
+                color: #0D1B4D;
+                margin: 10px 0;
+            }
+            
+        }
+
+
+        .ProfileParticipants {
+            .profile-main {
+                display: flex;
+                gap: 10px;
+                .img{
+                    img {
+                        width: 42px;
+                        height: 42px;
+                        border-radius: 100px;
+                    }
+                }
+
+                .profileDescription {
+                    display: flex;
+                    gap: 50px;
+
+                    .nameJob {
+                        .name {
+                            font-size: 20px;
+                            font-weight: 450;
+                        }
+
+                        .jobTitile {
+                            font-size: 15px;
+                            font-weight: 400;
+                            color: #525252;
+                        }
+                    }
+
+                    .participants {
+                        display: flex;
+
+
+                        p{
+                            text-align: center;
+                            margin-left: 6px;
+
+                            span {
+                                color: #FF4400;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .deadline {
+                width: 187px;
+                height: 33px;
+                border: 1px solid #E6E6E6;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 15px 0;
+
+                p{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+        
+    }
+
+
+}
+
+
+
+.project {
+    display: flex;
+    gap: 20px;
+
+    .detailed,
+    .apply {
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        height: 56px;
+        cursor: pointer;
+    }
+
+    .detailed {
+        width: 190px;
+        border: 1px solid #0D1B4D;
+        background-color: white;
+        color: #0D1B4D;
+    }
+
+    .apply {
+        width: 190px;
+        background-color: #0D1B4D;
+        color: white;
+        border: none;
+    }
+}
+
+.mentorium {
+    .apply {
+        width: 400px;
+        height: 56px;
+        background-color: #0D1B4D;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
