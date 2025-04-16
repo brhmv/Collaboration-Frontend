@@ -3,24 +3,25 @@ import photo from '@/assets/images/risImage.png'
 import background from '@/assets/images/card-image.png'
 import { MyCreationCardsContent } from './data/mock__data'
 import CompoundCard from '../../components/CompoundCard/container'
+import MotionContainer from '../../animations/MotionContainer'
+import MotionItem from '../../animations/MotionItem'
 function MyCreations() {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-[clamp(16px,4vw,32px)] gap-y-[clamp(16px,4vh,32px)] mt-[70px]'>
-            {
-                MyCreationCardsContent && MyCreationCardsContent.map((item) => (
-                    <CompoundCard
-                        key={item.id}
+        <MotionContainer>
+            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-[clamp(16px,4vw,32px)] gap-y-[clamp(16px,4vh,32px)] mt-[70px]'>
+                {
+                    MyCreationCardsContent && MyCreationCardsContent.map((item) => (
+                        <MotionItem key={item.id}>
+                            <CompoundCard
+                                bgImg={background} //temporary
+                                profilePhoto={photo} //temporary
+                                {...item} />
+                        </MotionItem>
+                    ))
+                }
 
-                        bgImg={background} //temporary
-                        profilePhoto={photo} //temporary
-
-
-                        {...item}
-                    />
-                ))
-            }
-
-        </div>
+            </div>
+        </MotionContainer>
     )
 }
 

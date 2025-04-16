@@ -5,6 +5,7 @@ import { selectActiveTab } from '@/redux/slices/tabSlice/index'
 import MyCreations from '../../../features/MyCreations/container';
 import WaitingApprovals from '../../../features/WaitingApprovals/container';
 import ParticipatedIn from '../../../features/ParticipatedIn/container';
+import { motion } from 'framer-motion';
 const TabNavigationContent = [
     {
         id: 0,
@@ -22,7 +23,10 @@ const TabNavigationContent = [
 function ActivityPage() {
     const activeTab = useSelector(selectActiveTab);
     return (
-        <div className="flex flex-col justify-center items-center">
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="flex flex-col justify-center items-center">
             <TabNavigation tabs={TabNavigationContent} />
             {
                 activeTab == 0 && (
@@ -38,7 +42,7 @@ function ActivityPage() {
                 <ParticipatedIn />
             )
             }
-        </div>
+        </motion.div>
     )
 }
 
