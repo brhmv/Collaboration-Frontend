@@ -10,7 +10,6 @@ function SendedMentoriums() {
             {
                 SendedMentoriumsContent && SendedMentoriumsContent.map((item) => {
                     return (
-
                         <SendedApplicationsCard key={item.id}>
                             <SendedApplicationsCard.Header
                                 projectName={item.projectName}
@@ -20,17 +19,12 @@ function SendedMentoriums() {
                             <SendedApplicationsCard.Footer>
                                 <SendedApplicationsCard.MoreInfoButton />
                                 {item.applicationStatus === 'accepted' ? (
-
                                     <SendedApplicationsCard.ConnectionInfo joiningMethod={item.joiningMethod} location={item.location} />
-
                                 ) : (
                                     <SendedApplicationsCard.CancelButton />
                                 )}
-
                             </SendedApplicationsCard.Footer>
                         </SendedApplicationsCard>
-
-
                     )
                 })
             }

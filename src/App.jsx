@@ -7,6 +7,7 @@ import ApplicationsPage from '@/pages/ApplicationsPage/page';
 import ProjectApplicationsPage from '@/pages/ApplicationsPage/ProjectApplicationsPage/page';
 import MentoriumApplicationsPage from '@/pages/ApplicationsPage/MentoriumApplicationsPage/page';
 import SavedPage from './pages/ApplicationsPage/SavedPage/page';
+import ActivityPage from './pages/ApplicationsPage/ActivityPage';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="projects" element={<ProjectApplicationsPage />} />
           <Route path="mentoriums" element={<MentoriumApplicationsPage />} />
           <Route path="saved" element={<SavedPage />} />
+          <Route path="activity" element={<ActivityPage />} />
         </Route>
       </Routes>
     </div>
