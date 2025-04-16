@@ -8,6 +8,7 @@ import ProjectApplicationsPage from '@/pages/ApplicationsPage/ProjectApplication
 import MentoriumApplicationsPage from '@/pages/ApplicationsPage/MentoriumApplicationsPage/page';
 import SavedPage from './pages/ApplicationsPage/SavedPage/page';
 import ActivityPage from './pages/ApplicationsPage/ActivityPage';
+import CreateMentoriumPage from './pages/CreateMentoriumPage/page';
 
 
 
@@ -15,11 +16,11 @@ function App() {
 
   return (
     <div className='custom-container'>
-
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/cardDetails" element={<CardDetailsPage />} />
+        <Route path="/createMentorium" element={<CreateMentoriumPage />}></Route>
         <Route path="/applications" element={<ApplicationsPage />}>
           <Route index element={<ProjectApplicationsPage />} />
           <Route path="projects" element={<ProjectApplicationsPage />} />

@@ -5,13 +5,11 @@ import ConfirmButton from '../ConfirmButton';
 import RejectButton from '../RejectButton';
 import ViewProfileButton from '../ViewProfileButton';
 import DateAndTime from '../../components/DateAndTime';
-import SkeletonIncomingApplicationCard from '@/components/SkeletonIncomingApplicationCard/index';
+
 
 function IncomingApplicationCard({ name, position, date, time, projectName, isLoading }) {
 
-    if (isLoading) {
-        return <SkeletonIncomingApplicationCard />;
-    }
+
 
     return (
         <div className="gap-[clamp(20px,4vw,32px)] border min-w-max border-gray-200 flex p-4 md:p-5 rounded-lg h-full items-center justify-between">
