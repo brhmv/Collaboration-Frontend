@@ -1,4 +1,4 @@
-import './Navbar.css'
+
 import logo from '../../../assets/images/NavbarLogo.png'
 import { CiCircleInfo } from "react-icons/ci";
 

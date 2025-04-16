@@ -10,7 +10,7 @@ function SecondaryButton({
     className = "",
     onClick
 }) {
-    const baseStyles = "whitespace-nowrap custom-border text-sm font-medium text-blue-turing bg-white py-[clamp(3px,1vh,8px)] px-[clamp(8px,1vw,16px)] rounded-lg w-full";
+    const baseStyles = "whitespace-nowrap border-1 border-blue-turing text-sm font-medium text-blue-turing bg-white py-[clamp(3px,1vh,8px)] px-[clamp(8px,1vw,16px)] rounded-lg w-full";
 
 
     const isLink = variant !== "button" && to !== "";

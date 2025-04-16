@@ -2,6 +2,7 @@
     --blue-turing: #0D1B4D;
     --orange: #FF4400;
     --orange-10: #FFDCCF;
+    --gray-10: #737373;
     --gray-52: #525252;
     --gray-d6: #D6D8E1;
     --gray-eb: #EBEBEB;
@@ -32,6 +33,7 @@
     --color-green-03: var(--green-03);
     --color-red-20: var(--red-20);
     --color-gray-d6: var(--gray-d6);
+    --color-gray-10: var(--gray-10);
     --color-orange-10: var(--orange-10);
     --color-orange-15: var(--orange-15);
     --color-green-10: var(--green-10);
@@ -50,6 +52,7 @@
         --blue-turing: #0D1B4D;
         --orange: #FF4400;
         --orange-10: #FFDCCF;
+        --gray-10: #737373;
         --gray-52: #525252;
         --gray-d6: #D6D8E1;
         --gray-eb: #EBEBEB;
