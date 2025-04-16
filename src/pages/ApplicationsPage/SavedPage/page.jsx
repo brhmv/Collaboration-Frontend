@@ -8,16 +8,15 @@ import TabNavigation from '../../../components/TabNavigation'
 function SavedPage() {
     return (
         <div className='flex flex-col justify-center items-center'>
-
-
+            <TabNavigation />
+            
             <div className='grid grid-cols-3 gap-[32px] mt-[70px]'>
                 {
                     SavedCardsContent && SavedCardsContent.map((item) => (
                         <Card
                             key={item.id}
-
-                            bgImg={background} //temporary
-                            profilePhoto={photo} //temporary
+                            bgImg={background} // temporary
+                            profilePhoto={photo} // temporary
                             type={item.type}
                             title={item.title}
                             topicDescription={item.topicDescription}
@@ -27,12 +26,9 @@ function SavedPage() {
                             participantCount={item.participantCount}
                             totalParticipants={item.totalParticipants}
                             percentage={item.percentage}
-                        // or
-                        // {...item}
                         />
                     ))
                 }
-
             </div>
         </div>
     )
