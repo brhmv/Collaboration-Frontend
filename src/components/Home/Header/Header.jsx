@@ -1,12 +1,9 @@
 import { FiPlus } from "react-icons/fi";
-
-
 import PrimaryButton from "@/components/PrimaryButton/index"
 import SecondaryButton from "@/components/SecondaryButton/index"
 import SearchBar from "../SearchBar";
+
 export default function Header() {
-
-
     return (
         <div className="header">
             <div className="container">
@@ -24,7 +21,6 @@ export default function Header() {
                         </div>
                     </SecondaryButton>
                 </div>
-
                 <SearchBar />
             </div>
         </div>

@@ -1,14 +1,9 @@
-//  istifade numunesi
-// useShortcut(["Escape"], () => {
-//     console.log("Escape clicked");
-//   });
-
-
+// src/utils/hooks/useShortcut.js
 import { useEffect } from "react";
 
-function useShortcut(keys: string[], callback: () => void) {
+function useShortcut(keys, callback) {
     useEffect(() => {
-        const handleKeyPress = (event: KeyboardEvent) => {
+        const handleKeyPress = (event) => {
             if (keys.includes(event.key)) {
                 event.preventDefault();
                 callback();

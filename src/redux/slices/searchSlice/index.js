@@ -1,4 +1,3 @@
-// src/redux/searchSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const searchSlice = createSlice({
@@ -7,18 +6,16 @@ const searchSlice = createSlice({
         searchText: '',
         filterOption: 'Bütün',
         showResults: false,
-        filteredItemIds: [] // Store only IDs instead of full items
+        filteredItemIds: []
     },
     reducers: {
         setSearchText: (state, action) => {
             state.searchText = action.payload;
-            state.showResults = action.payload.length > 0;
         },
         setFilterOption: (state, action) => {
             state.filterOption = action.payload;
         },
         setFilteredItemIds: (state, action) => {
-            // Store only array of IDs
             state.filteredItemIds = action.payload;
         },
         toggleShowResults: (state, action) => {
