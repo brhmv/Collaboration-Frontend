@@ -1,16 +1,11 @@
 import { FiPlus } from "react-icons/fi";
-import { IoMdArrowDropdown } from "react-icons/io";
-import { CiSearch } from "react-icons/ci";
-import { useState } from 'react';
+
 
 import PrimaryButton from "@/components/PrimaryButton/index"
 import SecondaryButton from "@/components/SecondaryButton/index"
+import SearchBar from "../SearchBar";
 export default function Header() {
-    const [dropdownVisible, setDropdownVisible] = useState(false);
 
-    const toggleDropdown = () => {
-        setDropdownVisible(!dropdownVisible);
-    };
 
     return (
         <div className="header">
@@ -30,24 +25,7 @@ export default function Header() {
                     </SecondaryButton>
                 </div>
 
-                <div className="search">
-                    <input type="button" placeholder='Layihə və mentorium axtar' />
-                    <div className="btn-dropdown">
-                        <div className="dropdown" onClick={toggleDropdown}>
-                            <p>Bütün <IoMdArrowDropdown /></p>
-                            {dropdownVisible && (
-                                <ul>
-                                    <li>Bütün</li>
-                                    <li>Layihələr</li>
-                                    <li>Mentoriumlar</li>
-                                </ul>
-                            )}
-                        </div>
-                        <div className="search-icon">
-                            <CiSearch />
-                        </div>
-                    </div>
-                </div>
+                <SearchBar />
             </div>
         </div>
 
