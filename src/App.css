@@ -68,50 +68,42 @@
             display: flex;
             gap: 16px;
 
-            .mentorium {
-                width: 200px;
-                height: 60px;
-                border-radius: 49px;
-                background-color: #0D1B4D;
-                color: white;
+            .mentorium,
+            .project {
+                flex-wrap: nowrap;
                 display: flex;
+                justify-content: space-between;
                 align-items: center;
-                justify-content: center;
-                gap: 16px;
+                gap: clamp(8px, 1vw, 16px);
+                border-radius: 49px;
+                padding-right: clamp(4px, 1vw, 8px);
+                font-weight: 450;
+                font-size: clamp(10px, 1vw, 18px);
+
             }
 
-            .project {
-                width: 169px;
-                height: 60px;
-                border-radius: 49px;
-                border: 1px solid #0D1B4D;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 16px;
-            }
+
         }
 
-        .plus-icon-mentorium {
-            width: 44px;
-            height: 44px;
-            border-radius: 32px;
+        .plus-icon-mentorium,
+        .plus-icon-project {
+            padding: clamp(3px, 0.5vw, 6px);
+            border-radius: 100%;
             background-color: white;
             color: #0D1B4D;
-            font-size: 44px;
-            text-align: center;
+            font-size: clamp(20px, 3vw, 36px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
             cursor: pointer;
         }
 
         .plus-icon-project {
-            width: 44px;
-            height: 44px;
-            border-radius: 32px;
+
             color: white;
             background-color: #0D1B4D;
-            font-size: 44px;
-            text-align: center;
-            cursor: pointer;
+
         }
 
         .search {
