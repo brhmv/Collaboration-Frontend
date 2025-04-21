@@ -1,0 +1,890 @@
+{
+    "MALCards": [
+        {
+            "id": 0,
+            "type": "mentorium",
+            "title": "E-Ticarət Platforması",
+            "topicDescription": "Müştəri və məhsul idarəsi üçün React və Firebase əsaslı veb tətbiq.",
+            "name": "Aysel Əliyeva",
+            "job": "Frontend Developer",
+            "date": "02.04.2025",
+            "participantCount": 10,
+            "totalParticipants": 20,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 3,
+            "type": "mentorium",
+            "title": "Sağlamlıq Qeydiyyat Sistemi",
+            "topicDescription": "Xəstə məlumatlarının saxlanılması və idarəsi üçün .NET əsaslı sistem.",
+            "name": "Elvin Qasımov",
+            "job": "Software Engineer",
+            "date": "05.04.2025",
+            "participantCount": 15,
+            "totalParticipants": 30,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 5,
+            "type": "mentorium",
+            "title": "Kargo İzləmə Sistemi",
+            "topicDescription": "Real-time izləmə və məlumat analizi üçün Angular və Firebase istifadə olunur.",
+            "name": "Rəşad Vəliyev",
+            "job": "Frontend Developer",
+            "date": "07.04.2025",
+            "participantCount": 6,
+            "totalParticipants": 25,
+            "percentage": 24,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 6,
+            "type": "mentorium",
+            "title": "Avtomobil İcarə Tətbiqi",
+            "topicDescription": "Laravel ilə hazırlanmış avtomobil bronlama və idarəetmə platforması.",
+            "name": "Günay Nəsirova",
+            "job": "Backend Developer",
+            "date": "08.04.2025",
+            "participantCount": 22,
+            "totalParticipants": 25,
+            "percentage": 88,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 8,
+            "type": "project",
+            "title": "Əmlak Satış Platforması",
+            "topicDescription": "Əmlak elanlarının yerləşdirilməsi və alıcılarla əlaqə üçün Next.js əsaslı sistem.",
+            "name": "Zəhra Səlimova",
+            "job": "Frontend Developer",
+            "date": "10.04.2025",
+            "participantCount": 11,
+            "totalParticipants": 25,
+            "percentage": 44,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 9,
+            "type": "project",
+            "title": "Startap İnkubasiya Sistemi",
+            "topicDescription": "Yeni ideyaların və startap komandalarının idarəsi üçün hazırlanmış SaaS platforması.",
+            "name": "Kamran Mehdiyev",
+            "job": "Product Manager",
+            "date": "11.04.2025",
+            "participantCount": 25,
+            "totalParticipants": 25,
+            "percentage": 100,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        }
+    ],
+    "IncomingProjectApplicationCards": [
+        {
+            "id": 0,
+            "name": "Murad Fərəczadə",
+            "position": "UX/UI dizayner",
+            "date": "29.03.2025",
+            "time": "14:00",
+            "projectName": "Restoran idarəetmə sistemi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 1,
+            "name": "Aysel Həsənova",
+            "position": "Frontend developer",
+            "date": "30.03.2025",
+            "time": "09:30",
+            "projectName": "E-ticarət platforması",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "name": "Kamran Əliyev",
+            "position": "Backend developer",
+            "date": "31.03.2025",
+            "time": "11:00",
+            "projectName": "Verilənlər bazası idarəetmə sistemi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 3,
+            "name": "Zeynəb Rzayeva",
+            "position": "Full-stack developer",
+            "date": "01.04.2025",
+            "time": "13:15",
+            "projectName": "Mobil tətbiq inkişafı",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 4,
+            "name": "Tural Məmmədov",
+            "position": "Product manager",
+            "date": "02.04.2025",
+            "time": "16:00",
+            "projectName": "İnteraktiv platforma",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 5,
+            "name": "Elvin Məmmədli",
+            "position": "Project manager",
+            "date": "03.04.2025",
+            "time": "10:00",
+            "projectName": "İşçi heyəti idarəetməsi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 6,
+            "name": "Leyla Quliyeva",
+            "position": "Marketing specialist",
+            "date": "04.04.2025",
+            "time": "12:30",
+            "projectName": "Rəqəmsal marketinq kampaniyası",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 7,
+            "name": "Samir Novruzov",
+            "position": "Data analyst",
+            "date": "05.04.2025",
+            "time": "15:00",
+            "projectName": "Verilənlər analizi və vizuallaşdırma",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 8,
+            "name": "Ruhsar Məmmədova",
+            "position": "System administrator",
+            "date": "06.04.2025",
+            "time": "08:30",
+            "projectName": "İnfrastruktur idarəetmə",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 9,
+            "name": "Vüqar Hüseynov",
+            "position": "DevOps engineer",
+            "date": "07.04.2025",
+            "time": "17:00",
+            "projectName": "Bulud həlləri və avtomatlaşdırma",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 10,
+            "name": "Şəbnəm Əliyeva",
+            "position": "Content writer",
+            "date": "08.04.2025",
+            "time": "13:45",
+            "projectName": "Bloq və məqalə yazılışı",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        },
+        {
+            "id": 11,
+            "name": "Mürşid Qurbanov",
+            "position": "QA tester",
+            "date": "09.04.2025",
+            "time": "14:30",
+            "projectName": "Proqram testləri və keyfiyyətin təmin edilməsi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "status": "pending"
+        }
+    ],
+    "IncomingMentoriumApplicationCards": [
+        {
+            "id": 0,
+            "name": "Murad Fərəczadə",
+            "position": "UX/UI dizayner",
+            "date": "29.03.2025",
+            "time": "14:00",
+            "projectName": "Restoran idarəetmə sistemi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 1,
+            "name": "Aysel Həsənova",
+            "position": "Frontend developer",
+            "date": "30.03.2025",
+            "time": "09:30",
+            "projectName": "E-ticarət platforması",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 2,
+            "name": "Kamran Əliyev",
+            "position": "Backend developer",
+            "date": "31.03.2025",
+            "time": "11:00",
+            "projectName": "Verilənlər bazası idarəetmə sistemi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 3,
+            "name": "Zeynəb Rzayeva",
+            "position": "Full-stack developer",
+            "date": "01.04.2025",
+            "time": "13:15",
+            "projectName": "Mobil tətbiq inkişafı",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 4,
+            "name": "Tural Məmmədov",
+            "position": "Product manager",
+            "date": "02.04.2025",
+            "time": "16:00",
+            "projectName": "İnteraktiv platforma",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 5,
+            "name": "Elvin Məmmədli",
+            "position": "Project manager",
+            "date": "03.04.2025",
+            "time": "10:00",
+            "projectName": "İşçi heyəti idarəetməsi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 6,
+            "name": "Leyla Quliyeva",
+            "position": "Marketing specialist",
+            "date": "04.04.2025",
+            "time": "12:30",
+            "projectName": "Rəqəmsal marketinq kampaniyası",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 7,
+            "name": "Samir Novruzov",
+            "position": "Data analyst",
+            "date": "05.04.2025",
+            "time": "15:00",
+            "projectName": "Verilənlər analizi və vizuallaşdırma",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 8,
+            "name": "Ruhsar Məmmədova",
+            "position": "System administrator",
+            "date": "06.04.2025",
+            "time": "08:30",
+            "projectName": "İnfrastruktur idarəetmə",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 9,
+            "name": "Vüqar Hüseynov",
+            "position": "DevOps engineer",
+            "date": "07.04.2025",
+            "time": "17:00",
+            "projectName": "Bulud həlləri və avtomatlaşdırma",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 10,
+            "name": "Şəbnəm Əliyeva",
+            "position": "Content writer",
+            "date": "08.04.2025",
+            "time": "13:45",
+            "projectName": "Bloq və məqalə yazılışı",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 11,
+            "name": "Mürşid Qurbanov",
+            "position": "QA tester",
+            "date": "09.04.2025",
+            "time": "14:30",
+            "projectName": "Proqram testləri və keyfiyyətin təmin edilməsi",
+            "profilePhotoURL": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        }
+    ],
+    "SendedProjectApplicationCards": [
+        {
+            "id": 0,
+            "projectName": "Project Alpha",
+            "applicationStatus": "pending",
+            "date": "01.04.2025",
+            "time": "10:00"
+        },
+        {
+            "id": 1,
+            "projectName": "Project Beta",
+            "applicationStatus": "accepted",
+            "date": "02.04.2025",
+            "time": "11:30"
+        },
+        {
+            "id": 2,
+            "projectName": "Project Gamma",
+            "applicationStatus": "rejected",
+            "date": "03.04.2025",
+            "time": "14:15"
+        },
+        {
+            "id": 3,
+            "projectName": "Project Delta",
+            "applicationStatus": "pending",
+            "date": "04.04.2025",
+            "time": "09:45"
+        },
+        {
+            "id": 4,
+            "projectName": "Project Epsilon",
+            "applicationStatus": "accepted",
+            "date": "05.04.2025",
+            "time": "16:00"
+        },
+        {
+            "id": 5,
+            "projectName": "Project Zeta",
+            "applicationStatus": "rejected",
+            "date": "06.04.2025",
+            "time": "13:20"
+        },
+        {
+            "id": 6,
+            "projectName": "Project Eta",
+            "applicationStatus": "pending",
+            "date": "07.04.2025",
+            "time": "12:00"
+        },
+        {
+            "id": 7,
+            "projectName": "Project Theta",
+            "applicationStatus": "accepted",
+            "date": "08.04.2025",
+            "time": "15:45"
+        },
+        {
+            "id": 8,
+            "projectName": "Project Iota",
+            "applicationStatus": "rejected",
+            "date": "09.04.2025",
+            "time": "10:30"
+        },
+        {
+            "id": 9,
+            "projectName": "Project Kappa",
+            "applicationStatus": "accepted",
+            "date": "10.04.2025",
+            "time": "11:00"
+        },
+        {
+            "id": 10,
+            "projectName": "Project Lambda",
+            "applicationStatus": "pending",
+            "date": "11.04.2025",
+            "time": "13:00"
+        },
+        {
+            "id": 11,
+            "projectName": "Project Mu",
+            "applicationStatus": "rejected",
+            "date": "12.04.2025",
+            "time": "14:45"
+        }
+    ],
+    "SendedMentoriumApplicationCards": [
+        {
+            "id": 0,
+            "projectName": "Project Alpha",
+            "applicationStatus": "pending",
+            "date": "01.04.2025",
+            "time": "10:00",
+            "joiningMethod": "live",
+            "location": "Pixel"
+        },
+        {
+            "id": 1,
+            "projectName": "Project Beta",
+            "applicationStatus": "accepted",
+            "date": "02.04.2025",
+            "time": "11:30",
+            "joiningMethod": "online",
+            "location": "Zoom linki e-mailə göndərildi"
+        },
+        {
+            "id": 2,
+            "projectName": "Project Gamma",
+            "applicationStatus": "rejected",
+            "date": "03.04.2025",
+            "time": "14:15",
+            "joiningMethod": "live",
+            "location": "Pixel"
+        },
+        {
+            "id": 3,
+            "projectName": "Project Delta",
+            "applicationStatus": "pending",
+            "date": "04.04.2025",
+            "time": "09:45",
+            "joiningMethod": "online",
+            "location": "Zoom linki e-mailə göndərildi"
+        },
+        {
+            "id": 4,
+            "projectName": "Project Epsilon",
+            "applicationStatus": "accepted",
+            "date": "05.04.2025",
+            "time": "16:00",
+            "joiningMethod": "live",
+            "location": "Pixel"
+        },
+        {
+            "id": 5,
+            "projectName": "Project Zeta",
+            "applicationStatus": "rejected",
+            "date": "06.04.2025",
+            "time": "13:20",
+            "joiningMethod": "online",
+            "location": "Zoom linki e-mailə göndərildi"
+        },
+        {
+            "id": 6,
+            "projectName": "Project Eta",
+            "applicationStatus": "pending",
+            "date": "07.04.2025",
+            "time": "12:00",
+            "joiningMethod": "live",
+            "location": "Pixel"
+        },
+        {
+            "id": 7,
+            "projectName": "Project Theta",
+            "applicationStatus": "accepted",
+            "date": "08.04.2025",
+            "time": "15:45",
+            "joiningMethod": "online",
+            "location": "Zoom linki e-mailə göndərildi"
+        },
+        {
+            "id": 8,
+            "projectName": "Project Iota",
+            "applicationStatus": "rejected",
+            "date": "09.04.2025",
+            "time": "10:30",
+            "joiningMethod": "live",
+            "location": "Pixel"
+        },
+        {
+            "id": 9,
+            "projectName": "Project Kappa",
+            "applicationStatus": "accepted",
+            "date": "10.04.2025",
+            "time": "11:00",
+            "joiningMethod": "online",
+            "location": "Zoom linki e-mailə göndərildi"
+        },
+        {
+            "id": 10,
+            "projectName": "Project Lambda",
+            "applicationStatus": "pending",
+            "date": "11.04.2025",
+            "time": "13:00",
+            "joiningMethod": "live",
+            "location": "Pixel"
+        },
+        {
+            "id": 11,
+            "projectName": "Project Mu",
+            "applicationStatus": "rejected",
+            "date": "12.04.2025",
+            "time": "14:45",
+            "joiningMethod": "online",
+            "location": "Zoom linki e-mailə göndərildi"
+        }
+    ],
+    "MyCreationCards": [
+        {
+            "id": 0,
+            "type": "mentorium",
+            "title": "E-Ticarət Platforması",
+            "topicDescription": "Müştəri və məhsul idarəsi üçün React və Firebase əsaslı veb tətbiq.",
+            "name": "Aysel Əliyeva",
+            "job": "Frontend Developer",
+            "date": "02.04.2025",
+            "participantCount": 10,
+            "totalParticipants": 20,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 3,
+            "type": "mentorium",
+            "title": "Sağlamlıq Qeydiyyat Sistemi",
+            "topicDescription": "Xəstə məlumatlarının saxlanılması və idarəsi üçün .NET əsaslı sistem.",
+            "name": "Elvin Qasımov",
+            "job": "Software Engineer",
+            "date": "05.04.2025",
+            "participantCount": 15,
+            "totalParticipants": 30,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 5,
+            "type": "mentorium",
+            "title": "Kargo İzləmə Sistemi",
+            "topicDescription": "Real-time izləmə və məlumat analizi üçün Angular və Firebase istifadə olunur.",
+            "name": "Rəşad Vəliyev",
+            "job": "Frontend Developer",
+            "date": "07.04.2025",
+            "participantCount": 6,
+            "totalParticipants": 25,
+            "percentage": 24,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 6,
+            "type": "mentorium",
+            "title": "Avtomobil İcarə Tətbiqi",
+            "topicDescription": "Laravel ilə hazırlanmış avtomobil bronlama və idarəetmə platforması.",
+            "name": "Günay Nəsirova",
+            "job": "Backend Developer",
+            "date": "08.04.2025",
+            "participantCount": 22,
+            "totalParticipants": 25,
+            "percentage": 88,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 8,
+            "type": "project",
+            "title": "Əmlak Satış Platforması",
+            "topicDescription": "Əmlak elanlarının yerləşdirilməsi və alıcılarla əlaqə üçün Next.js əsaslı sistem.",
+            "name": "Zəhra Səlimova",
+            "job": "Frontend Developer",
+            "date": "10.04.2025",
+            "participantCount": 11,
+            "totalParticipants": 25,
+            "percentage": 44,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 9,
+            "type": "project",
+            "title": "Startap İnkubasiya Sistemi",
+            "topicDescription": "Yeni ideyaların və startap komandalarının idarəsi üçün hazırlanmış SaaS platforması.",
+            "name": "Kamran Mehdiyev",
+            "job": "Product Manager",
+            "date": "11.04.2025",
+            "participantCount": 25,
+            "totalParticipants": 25,
+            "percentage": 100,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        }
+    ],
+    "ParticipatedInCards": [
+        {
+            "id": 0,
+            "type": "mentorium",
+            "title": "E-Ticarət Platforması",
+            "topicDescription": "Müştəri və məhsul idarəsi üçün React və Firebase əsaslı veb tətbiq.",
+            "name": "Aysel Əliyeva",
+            "job": "Frontend Developer",
+            "date": "02.04.2025",
+            "participantCount": 10,
+            "totalParticipants": 20,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 3,
+            "type": "mentorium",
+            "title": "Sağlamlıq Qeydiyyat Sistemi",
+            "topicDescription": "Xəstə məlumatlarının saxlanılması və idarəsi üçün .NET əsaslı sistem.",
+            "name": "Elvin Qasımov",
+            "job": "Software Engineer",
+            "date": "05.04.2025",
+            "participantCount": 15,
+            "totalParticipants": 30,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 5,
+            "type": "mentorium",
+            "title": "Kargo İzləmə Sistemi",
+            "topicDescription": "Real-time izləmə və məlumat analizi üçün Angular və Firebase istifadə olunur.",
+            "name": "Rəşad Vəliyev",
+            "job": "Frontend Developer",
+            "date": "07.04.2025",
+            "participantCount": 6,
+            "totalParticipants": 25,
+            "percentage": 24,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 6,
+            "type": "mentorium",
+            "title": "Avtomobil İcarə Tətbiqi",
+            "topicDescription": "Laravel ilə hazırlanmış avtomobil bronlama və idarəetmə platforması.",
+            "name": "Günay Nəsirova",
+            "job": "Backend Developer",
+            "date": "08.04.2025",
+            "participantCount": 22,
+            "totalParticipants": 25,
+            "percentage": 88,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 8,
+            "type": "project",
+            "title": "Əmlak Satış Platforması",
+            "topicDescription": "Əmlak elanlarının yerləşdirilməsi və alıcılarla əlaqə üçün Next.js əsaslı sistem.",
+            "name": "Zəhra Səlimova",
+            "job": "Frontend Developer",
+            "date": "10.04.2025",
+            "participantCount": 11,
+            "totalParticipants": 25,
+            "percentage": 44,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 9,
+            "type": "project",
+            "title": "Startap İnkubasiya Sistemi",
+            "topicDescription": "Yeni ideyaların və startap komandalarının idarəsi üçün hazırlanmış SaaS platforması.",
+            "name": "Kamran Mehdiyev",
+            "job": "Product Manager",
+            "date": "11.04.2025",
+            "participantCount": 25,
+            "totalParticipants": 25,
+            "percentage": 100,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        }
+    ],
+    "WaitingApprovalCards": [
+        {
+            "id": 0,
+            "type": "mentorium",
+            "title": "E-Ticarət Platforması",
+            "topicDescription": "Müştəri və məhsul idarəsi üçün React və Firebase əsaslı veb tətbiq.",
+            "name": "Aysel Əliyeva",
+            "job": "Frontend Developer",
+            "date": "02.04.2025",
+            "participantCount": 10,
+            "totalParticipants": 20,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 3,
+            "type": "mentorium",
+            "title": "Sağlamlıq Qeydiyyat Sistemi",
+            "topicDescription": ".NET əsaslı xəstə məlumatları idarə sistemi.",
+            "name": "Elvin Qasımov",
+            "job": "Software Engineer",
+            "date": "05.04.2025",
+            "participantCount": 15,
+            "totalParticipants": 30,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 5,
+            "type": "mentorium",
+            "title": "Kargo İzləmə Sistemi",
+            "topicDescription": "Real-time izləmə və məlumat analizi üçün Angular və Firebase istifadə olunur.",
+            "name": "Rəşad Vəliyev",
+            "job": "Frontend Developer",
+            "date": "07.04.2025",
+            "participantCount": 6,
+            "totalParticipants": 25,
+            "percentage": 24,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 6,
+            "type": "mentorium",
+            "title": "Avtomobil İcarə Tətbiqi",
+            "topicDescription": "Laravel ilə hazırlanmış avtomobil bronlama və idarəetmə platforması.",
+            "name": "Günay Nəsirova",
+            "job": "Backend Developer",
+            "date": "08.04.2025",
+            "participantCount": 22,
+            "totalParticipants": 25,
+            "percentage": 88,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 8,
+            "type": "project",
+            "title": "Əmlak Satış Platforması",
+            "topicDescription": "Əmlak elanlarının yerləşdirilməsi və alıcılarla əlaqə üçün Next.js əsaslı sistem.",
+            "name": "Zəhra Səlimova",
+            "job": "Frontend Developer",
+            "date": "10.04.2025",
+            "participantCount": 11,
+            "totalParticipants": 25,
+            "percentage": 44,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 9,
+            "type": "project",
+            "title": "Startap İnkubasiya Sistemi",
+            "topicDescription": "Yeni ideyaların və startap komandalarının idarəsi üçün hazırlanmış SaaS platforması.",
+            "name": "Kamran Mehdiyev",
+            "job": "Product Manager",
+            "date": "11.04.2025",
+            "participantCount": 25,
+            "totalParticipants": 25,
+            "percentage": 100,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        }
+    ],
+    "SavedCards": [
+        {
+            "id": 0,
+            "type": "mentorium",
+            "title": "E-Ticarət Platforması",
+            "topicDescription": "Müştəri və məhsul idarəsi üçün React və Firebase əsaslı veb tətbiq.",
+            "name": "Aysel Əliyeva",
+            "job": "Frontend Developer",
+            "date": "02.04.2025",
+            "participantCount": 10,
+            "totalParticipants": 20,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 3,
+            "type": "mentorium",
+            "title": "Sağlamlıq Qeydiyyat Sistemi",
+            "topicDescription": "Xəstə məlumatlarının saxlanılması və idarəsi üçün .NET əsaslı sistem.",
+            "name": "Elvin Qasımov",
+            "job": "Software Engineer",
+            "date": "05.04.2025",
+            "participantCount": 15,
+            "totalParticipants": 30,
+            "percentage": 50,
+            "applicationStatus": "rejected",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 5,
+            "type": "mentorium",
+            "title": "Kargo İzləmə Sistemi",
+            "topicDescription": "Real-time izləmə və məlumat analizi üçün Angular və Firebase istifadə olunur.",
+            "name": "Rəşad Vəliyev",
+            "job": "Frontend Developer",
+            "date": "07.04.2025",
+            "participantCount": 6,
+            "totalParticipants": 25,
+            "percentage": 24,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 6,
+            "type": "mentorium",
+            "title": "Avtomobil İcarə Tətbiqi",
+            "topicDescription": "Laravel ilə hazırlanmış avtomobil bronlama və idarəetmə platforması.",
+            "name": "Günay Nəsirova",
+            "job": "Backend Developer",
+            "date": "08.04.2025",
+            "participantCount": 22,
+            "totalParticipants": 25,
+            "percentage": 88,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 8,
+            "type": "project",
+            "title": "Əmlak Satış Platforması",
+            "topicDescription": "Əmlak elanlarının yerləşdirilməsi və alıcılarla əlaqə üçün Next.js əsaslı sistem.",
+            "name": "Zəhra Səlimova",
+            "job": "Frontend Developer",
+            "date": "10.04.2025",
+            "participantCount": 11,
+            "totalParticipants": 25,
+            "percentage": 44,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        },
+        {
+            "id": 9,
+            "type": "project",
+            "title": "Startap İnkubasiya Sistemi",
+            "topicDescription": "Yeni ideyaların və startap komandalarının idarəsi üçün hazırlanmış SaaS platforması.",
+            "name": "Kamran Mehdiyev",
+            "job": "Product Manager",
+            "date": "11.04.2025",
+            "participantCount": 25,
+            "totalParticipants": 25,
+            "percentage": 100,
+            "applicationStatus": "accepted",
+            "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+        }
+    ]
+}
