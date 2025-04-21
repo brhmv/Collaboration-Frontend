@@ -1,16 +1,18 @@
 import React from 'react';
-
-
 import ConfirmButton from '../ConfirmButton';
 import RejectButton from '../RejectButton';
 import ViewProfileButton from '../ViewProfileButton';
 import DateAndTime from '../../components/DateAndTime';
 
-
-function IncomingApplicationCard({ name, position, date, time, projectName, profilePhotoURL }) {
-
-
-
+function IncomingApplicationCard({
+    name,
+    position,
+    date,
+    time,
+    projectName,
+    profilePhotoURL,
+    status
+}) {
     return (
         <div className="gap-[clamp(20px,4vw,32px)] border min-w-max border-gray-200 flex p-4 md:p-5 rounded-lg h-full items-center justify-between">
             <div className="flex flex-col gap-4">
@@ -38,7 +40,7 @@ function IncomingApplicationCard({ name, position, date, time, projectName, prof
             </div>
             <div className="flex flex-col justify-between items-center gap-2">
                 <div className="flex justify-between items-center w-full h-full gap-2 flex-col sm:flex-row">
-                    <ConfirmButton />
+                    <ConfirmButton status={status} />
                     <RejectButton />
                 </div>
                 <div>
