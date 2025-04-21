@@ -1,17 +1,19 @@
 import React from 'react'
-
-import SendedAplicationsContent from './data/mock__data'
 import SendedApplicationsCard from '../../components/SendedAplicationsCard/container'
 import MotionContainer from '../../animations/MotionContainer'
 import MotionItem from '../../animations/MotionItem'
+import { useGetSendedProjectApplicationCardsQuery } from '../../redux/slices/sendedProjectApplicationCardsSlice'
 
 
 function SendedAplications() {
+    const {
+        data: SendedProjectApplicationCards,
+    } = useGetSendedProjectApplicationCardsQuery();
     return (
         <MotionContainer>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[clamp(20px,7vw,32px)] '>
                 {
-                    SendedAplicationsContent && SendedAplicationsContent.map((item) => {
+                    SendedProjectApplicationCards && SendedProjectApplicationCards.map((item) => {
                         return (
                             <MotionItem>
                                 <SendedApplicationsCard key={item.id}>

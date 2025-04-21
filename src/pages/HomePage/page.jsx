@@ -1,24 +1,28 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import Navbar from '../../components/Home/Navbar/Navbar';
+import Header from '../../components/Home/Header/Header';
+import SearchResults from '../../components/Home/SearchResults';
+import { useGetMALCardsQuery } from '../../redux/slices/malCardsSlice';
+import MALCard from '../../components/MALCard/container';
 
-import { useGetMALCardsQuery } from '../../../redux/slices/malCardsSlice';
-import MALCard from '../../MALCard/container';
 
-
-function SearchResults() {
+export default function HomePage() {
+    const { showResults, filterOption } = useSelector(state => state.search);
     const {
-        data: cards,
+        data: defaultCards,
     } = useGetMALCardsQuery();
-    const { filteredItemIds } = useSelector(state => state.search);
-    const filteredCards = cards.filter(card =>
-        filteredItemIds.includes(card.id)
-    );
 
     return (
-        <div className="search-results-section">
-            {filteredCards.length > 0 ? (
-                <div className="cards">
-                    {filteredCards.map(card => (
+        <div className='home-container' >
+            <Navbar />
+            <Header />
+            <h1>{filterOption}</h1>
+            {showResults ? (
+                <SearchResults />
+            ) : (
+                <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-[clamp(16px,4vw,32px)] gap-y-[clamp(16px,4vh,32px)] mt-[70px]'>
+                    {defaultCards && defaultCards.map(card => (
                         <MALCard key={card.id} type={card.type}>
                             <MALCard.Header
                                 bgImg={card.bgImg}
@@ -42,24 +46,19 @@ function SearchResults() {
                             </MALCard.Main>
                             <MALCard.Footer type={card.type}>
                                 {card.type === 'project' ? (
-                                    <>
+                                    <div className='flex gap-[clamp(12px,2vw,16px)]'>
                                         <MALCard.Footer.DetailsButton />
                                         <MALCard.Footer.ApplyButton />
-                                    </>
+                                    </div>
                                 ) : (
                                     <MALCard.Footer.ApplyButton />
                                 )}
                             </MALCard.Footer>
                         </MALCard>
                     ))}
-                </div>
-            ) : (
-                <div>
-                    <p>Axtarışınıza uyğun nəticə tapılmadı.</p>
+
                 </div>
             )}
         </div>
     );
 }
-
-export default SearchResults;

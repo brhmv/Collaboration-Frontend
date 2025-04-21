@@ -2,10 +2,15 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { setSearchText, setFilteredItemIds, toggleShowResults } from '@/redux/slices/searchSlice';
-import { WaitingApprovalCards } from '@/pages/HomePage/data/mock__data';
+
 import DropdownFilter from '../DropdownFilter';
 import SearchButton from '../SearchButton';
+import { useGetMALCardsQuery } from '../../../redux/slices/malCardsSlice';
 function SearchBar() {
+    const {
+        data: cards,
+    } = useGetMALCardsQuery();
+
     const dispatch = useDispatch();
     const { searchText, filterOption } = useSelector(state => state.search);
     const handleSearchChange = (e) => {
@@ -17,7 +22,7 @@ function SearchBar() {
 
         if (searchText.trim()) {
 
-            const filteredIds = WaitingApprovalCards
+            const filteredIds = cards
                 .filter(item => {
                     const typeMatches = filterOption === 'Bütün' ||
                         (filterOption === 'Layihələr' && item.type === 'project') ||
