@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router'
 import './App.css'
 
-import HomePage from './pages/HomePage/Home'
+import HomePage from '@/pages/HomePage/page'
 import CardDetailsPage from '@/pages/CardDetailsPage/CardDetails';
 import ApplicationsPage from '@/pages/ApplicationsPage/page';
 import ProjectApplicationsPage from '@/pages/ApplicationsPage/ProjectApplicationsPage/page';

@@ -1,5 +1,5 @@
 import React from 'react';
-import mockProfile from '@/assets/images/mock_profile.png';
+
 
 import ConfirmButton from '../ConfirmButton';
 import RejectButton from '../RejectButton';
@@ -7,7 +7,7 @@ import ViewProfileButton from '../ViewProfileButton';
 import DateAndTime from '../../components/DateAndTime';
 
 
-function IncomingApplicationCard({ name, position, date, time, projectName, isLoading }) {
+function IncomingApplicationCard({ name, position, date, time, projectName, profilePhotoURL }) {
 
 
 
@@ -16,7 +16,7 @@ function IncomingApplicationCard({ name, position, date, time, projectName, isLo
             <div className="flex flex-col gap-4">
                 <div className="flex gap-1 md:gap-1.5 items-center justify-start h-full">
                     <img
-                        src={mockProfile}
+                        src={profilePhotoURL}
                         alt="mock profile photo"
                         className="lg:h-10 rounded-full"
                     />

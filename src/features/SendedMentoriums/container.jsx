@@ -1,19 +1,21 @@
 import React from 'react'
-import { SendedMentoriumsContent } from './data/mock__data'
 import SendedApplicationsCard from '../../components/SendedAplicationsCard/container'
 import MotionContainer from '../../animations/MotionContainer'
 import MotionItem from '../../animations/MotionItem'
+import { useGetSendedMentoriumApplicationCardsQuery } from '../../redux/slices/sendedMentoriumApplicationCardsSlice'
 
 
 
 
 function SendedMentoriums() {
-
+    const {
+        data: SendedMentoriumApplicationCards,
+    } = useGetSendedMentoriumApplicationCardsQuery();
     return (
         <MotionContainer>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[clamp(20px,7vw,32px)]'>
                 {
-                    SendedMentoriumsContent && SendedMentoriumsContent.map((item) => {
+                    SendedMentoriumApplicationCards && SendedMentoriumApplicationCards.map((item) => {
                         return (
                             <MotionItem>
                                 <SendedApplicationsCard key={item.id}>
