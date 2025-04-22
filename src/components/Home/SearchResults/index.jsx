@@ -15,7 +15,7 @@ function SearchResults() {
     );
 
     return (
-        <div className="search-results-section">
+        <div>
             {filteredCards.length > 0 ? (
                 <div className="cards">
                     {filteredCards.map(card => (
@@ -28,6 +28,7 @@ function SearchResults() {
                                 <MALCard.Main.Description
                                     title={card.title}
                                     topicDescription={card.topicDescription}
+                                    saved={card.saved}
                                 />
                                 <MALCard.Main.Profile
                                     profilePhoto={card.profilePhoto}
@@ -42,10 +43,10 @@ function SearchResults() {
                             </MALCard.Main>
                             <MALCard.Footer type={card.type}>
                                 {card.type === 'project' ? (
-                                    <>
+                                    <div className='flex gap-[clamp(12px,2vw,16px)]'>
                                         <MALCard.Footer.DetailsButton />
                                         <MALCard.Footer.ApplyButton />
-                                    </>
+                                    </div>
                                 ) : (
                                     <MALCard.Footer.ApplyButton />
                                 )}

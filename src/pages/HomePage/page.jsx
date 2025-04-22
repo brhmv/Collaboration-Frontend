@@ -29,8 +29,8 @@ export default function HomePage() {
                             <MALCard.Header
                                 bgImg={card.bgImg}
                                 type={card.type}
+
                                 saved={card.saved}
-                                id="mentorium-456"
                             />
                             <MALCard.Main>
                                 <MALCard.Main.Description

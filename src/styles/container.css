@@ -3,7 +3,6 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-
     padding-right: 2vw;
     padding-left: 2vw;
 }
@@ -30,6 +29,12 @@
 @media (min-width: 1280px) {
     .custom-container {
         max-width: 1280px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .custom-container {
+        max-width: 1440px;
     }
 }
 
