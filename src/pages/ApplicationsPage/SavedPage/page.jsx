@@ -19,6 +19,7 @@ function SavedPage() {
                                     <MALCard.Header
                                         bgImg={card.bgImg}
                                         type={card.type}
+                                        saved={card.saved}
                                     />
                                     <MALCard.Main>
                                         <MALCard.Main.Description
