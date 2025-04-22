@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { IoShareSocialOutline, IoBookmarkOutline, IoBookmark } from "react-icons/io5";
 import { openShareModal } from '@/redux/slices/shareModalSlice'; // Adjust path as needed
+import SaveButton from '../SaveButton';
 
 const CardHeader = ({ bgImg, type = 'project', saved, id, customUrl }) => {
     const dispatch = useDispatch();
@@ -26,15 +27,7 @@ const CardHeader = ({ bgImg, type = 'project', saved, id, customUrl }) => {
                 >
                     <IoShareSocialOutline className="text-xl" />
                 </button>
-                {saved ? (
-                    <button className="cursor-pointer text-[#000D26] bg-white rounded-full p-2 shadow-sm">
-                        <IoBookmark className="text-xl" />
-                    </button>
-                ) : (
-                    <button className="cursor-pointer text-[#000D26] bg-white rounded-full p-2 shadow-sm">
-                        <IoBookmarkOutline className="text-xl" />
-                    </button>
-                )}
+                <SaveButton saved={saved} />
             </div>
 
             <div className="absolute bottom-3 left-3 z-20">
