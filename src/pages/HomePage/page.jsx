@@ -5,6 +5,8 @@ import Header from '../../components/Home/Header/Header';
 import SearchResults from '../../components/Home/SearchResults';
 import { useGetMALCardsQuery } from '../../redux/slices/malCardsSlice';
 import MALCard from '../../components/MALCard/container';
+import ShareModal from '../../components/MALCard/ui/ShareModal';
+
 
 
 export default function HomePage() {
@@ -27,11 +29,14 @@ export default function HomePage() {
                             <MALCard.Header
                                 bgImg={card.bgImg}
                                 type={card.type}
+                                saved={card.saved}
+                                id="mentorium-456"
                             />
                             <MALCard.Main>
                                 <MALCard.Main.Description
                                     title={card.title}
                                     topicDescription={card.topicDescription}
+
                                 />
                                 <MALCard.Main.Profile
                                     profilePhoto={card.profilePhoto}
@@ -59,6 +64,7 @@ export default function HomePage() {
 
                 </div>
             )}
+            <ShareModal />
         </div>
     );
 }

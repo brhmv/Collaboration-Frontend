@@ -13,7 +13,8 @@
             "percentage": 50,
             "applicationStatus": "rejected",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         },
         {
             "id": 3,
@@ -28,7 +29,8 @@
             "percentage": 50,
             "applicationStatus": "rejected",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": false
         },
         {
             "id": 5,
@@ -43,7 +45,8 @@
             "percentage": 24,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": false
         },
         {
             "id": 6,
@@ -58,7 +61,8 @@
             "percentage": 88,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": false
         },
         {
             "id": 8,
@@ -73,7 +77,8 @@
             "percentage": 44,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": false
         },
         {
             "id": 9,
@@ -88,7 +93,8 @@
             "percentage": 100,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": false
         }
     ],
     "IncomingProjectApplicationCards": [
@@ -809,7 +815,8 @@
             "percentage": 50,
             "applicationStatus": "rejected",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         },
         {
             "id": 3,
@@ -824,7 +831,8 @@
             "percentage": 50,
             "applicationStatus": "rejected",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         },
         {
             "id": 5,
@@ -839,7 +847,8 @@
             "percentage": 24,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         },
         {
             "id": 6,
@@ -854,7 +863,8 @@
             "percentage": 88,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         },
         {
             "id": 8,
@@ -869,7 +879,8 @@
             "percentage": 44,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         },
         {
             "id": 9,
@@ -884,7 +895,8 @@
             "percentage": 100,
             "applicationStatus": "accepted",
             "bgImg": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+            "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
+            "saved": true
         }
     ]
 }
