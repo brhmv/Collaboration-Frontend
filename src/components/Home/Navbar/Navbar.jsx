@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router';
 import logo from '../../../assets/images/NavbarLogo.png'
 import { CiCircleInfo } from "react-icons/ci";
 
@@ -6,15 +7,15 @@ import { CiCircleInfo } from "react-icons/ci";
 export default function Navbar() {
     return (
         <div className='navbar'>
-            <div className="logo">
+            <Link to="/createMentorium" className="logo">
                 <img src={logo} alt="logo" />
-            </div>
-            <div className="controlPanel">
+            </Link>
+            <Link to="/createProject" className="controlPanel">
                 <p>Idarə paneli</p>
                 <div className="controlPanel-icon">
                     <CiCircleInfo />
                 </div>
-            </div>
+            </Link>
         </div>
     )
 }
