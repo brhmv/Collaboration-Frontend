@@ -2,16 +2,32 @@ import React, { useState } from 'react'
 import crossIcon from "@/assets/icons/cross.svg"
 import arrowIcon from "@/assets/icons/Arrow-Down-2.svg"
 
-function Input({ type, label, options, defaultValue }) {
+function Input({
+    type,
+    label,
+    options = [],
+    value = "",
+    onChange,
+    rows = 3
+}) {
     const [isFocused, setIsFocused] = useState(false)
-    const [inputValue, setInputValue] = useState(defaultValue || '')
 
+    // Handle input change and propagate to parent
     const handleInputChange = (e) => {
-        setInputValue(e.target.value)
+        if (onChange) {
+            onChange(e);
+        }
     }
 
+    // Clear input
     const clearInput = () => {
-        setInputValue('')
+        // Create a synthetic event to mimic a change event
+        const syntheticEvent = {
+            target: { value: '' }
+        };
+        if (onChange) {
+            onChange(syntheticEvent);
+        }
     }
 
     return (
@@ -22,14 +38,15 @@ function Input({ type, label, options, defaultValue }) {
                     {type === "select" ? (
                         <div className="relative w-full">
                             <select
-                                value={inputValue}
+                                value={value}
                                 onChange={handleInputChange}
                                 className='focus:outline-none text-blue-turing font-[400] text-[clamp(8px,2vw,16px)] bg-transparent w-full appearance-none'
                                 onFocus={() => setIsFocused(true)}
                                 onBlur={() => setIsFocused(false)}
                             >
-                                {options && options.map((option, index) => (
-                                    <option key={index} value={option.value}>
+                                <option value="">Seçin</option>
+                                {options && options.map((option) => (
+                                    <option key={option.id} value={option.value}>
                                         {option.label}
                                     </option>
                                 ))}
@@ -38,10 +55,19 @@ function Input({ type, label, options, defaultValue }) {
                                 <img src={arrowIcon} alt="arrow down icon" />
                             </div>
                         </div>
+                    ) : type === "textarea" ? (
+                        <textarea
+                            value={value}
+                            onChange={handleInputChange}
+                            rows={rows}
+                            className='focus:outline-none text-blue-turing font-[400] text-[clamp(8px,2vh,16px)] bg-transparent w-full resize-none'
+                            onFocus={() => setIsFocused(true)}
+                            onBlur={() => setIsFocused(false)}
+                        />
                     ) : (
                         <input
                             type={type}
-                            value={inputValue}
+                            value={value}
                             onChange={handleInputChange}
                             className='focus:outline-none text-blue-turing font-[400] text-[clamp(8px,2vh,16px)] bg-transparent w-full '
                             onFocus={() => setIsFocused(true)}
@@ -50,7 +76,7 @@ function Input({ type, label, options, defaultValue }) {
                     )}
                 </div>
             </label>
-            {inputValue && type !== "select" && (
+            {value && type !== "select" && (
                 <button
                     className='cursor-pointer flex items-center justify-center bg-gray-300 size-[clamp(15px,3vw,30px)] rounded-full'
                     onClick={clearInput}

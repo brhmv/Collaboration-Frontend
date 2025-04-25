@@ -1,54 +1,22 @@
 import React from 'react'
-import MALCard from '@/components/MALCard/container'
 
-const cardData = {
-    type: "mentorium", // or "project"
-    bgImg: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    title: "React Development",
-    topicDescription: "Learn React development with practical examples and mentorship",
-    profilePhoto: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
-    name: "John Doe",
-    job: "Senior React Developer",
-    date: "25.05.2025",
-    participantCount: 8,
-    totalParticipants: 10,
-    percentage: 80
-};
+import CreateMentorium from '../../features/CreateMentorium/container'
+
 function CreateMentoriumPage() {
+
+
     return (
-        <div>
-            <MALCard type={cardData.type}>
-                <MALCard.Header
-                    bgImg={cardData.bgImg}
-                    type={cardData.type}
-                />
-                <MALCard.Main>
-                    <MALCard.Main.Description
-                        title={cardData.title}
-                        topicDescription={cardData.topicDescription}
-                    />
-                    <MALCard.Main.Profile
-                        profilePhoto={cardData.profilePhoto}
-                        name={cardData.name}
-                        job={cardData.job}
-                        date={cardData.date}
-                        type={cardData.type}
-                        participantCount={cardData.participantCount}
-                        totalParticipants={cardData.totalParticipants}
-                        percentage={cardData.percentage}
-                    />
-                </MALCard.Main>
-                <MALCard.Footer type={cardData.type} >
-                    {cardData.type === 'project' ? (
-                        <>
-                            <MALCard.Footer.DetailsButton />
-                            <MALCard.Footer.ApplyButton />
-                        </>
-                    ) : (
-                        <MALCard.Footer.ApplyButton />
-                    )}
-                </MALCard.Footer>
-            </MALCard>
+        <div className='space-y-[clamp(24px,4vw,30px)] p-[30px]'>
+            <div className='space-y-[clamp(5px,2vh,8px)]'>
+                <h3 className='text-blue-turing font-medium text-[clamp(26px,6vw,32px)]'>
+                    Mentorium yarat
+                </h3>
+                <i className='text-[clamp(14px,2vw,18px)] text-gray-20'>
+                    Birlikdə daha canlı və ilhamverici bir atmosfer quraq!
+                </i>
+            </div>
+
+            <CreateMentorium />
         </div>
     )
 }

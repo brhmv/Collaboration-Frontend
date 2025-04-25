@@ -1,0 +1,6 @@
+.double-border {
+    border: 1px solid black;
+    outline: 4px solid white;
+    outline-offset: -6px;
+    padding: 10px;
+}

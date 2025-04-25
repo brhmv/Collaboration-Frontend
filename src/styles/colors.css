@@ -9,7 +9,7 @@
     --gray-50: #7D8192;
     --gray-60: #F3F3F6;
     --gray-70: #7B7194;
-
+    --gray-80: #F5F5F5;
     --gray-d6: #D6D8E1;
 
     --gray-eb: #EBEBEB;
@@ -47,6 +47,7 @@
     --color-gray-50: var(--gray-50);
     --color-gray-60: var(--gray-60);
     --color-gray-70: var(--gray-70);
+    --color-gray-80: var(--gray-80);
     --color-orange-10: var(--orange-10);
     --color-orange-15: var(--orange-15);
     --color-green-10: var(--green-10);
