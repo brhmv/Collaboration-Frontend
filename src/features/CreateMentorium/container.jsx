@@ -25,7 +25,7 @@ function CreateMentorium() {
     const [errors, setErrors] = useState({});
     const [notification, setNotification] = useState({ show: false, message: '', type: '' });
 
-    // Checkbox handler 
+    // Checkbox handle
     const handleCheckboxChange = (value) => {
         setFormData({
             ...formData,
@@ -33,7 +33,7 @@ function CreateMentorium() {
         });
     };
 
-    // input Handler
+    // input Handle
     const handleInputChange = (field) => (e) => {
         setFormData({
             ...formData,
