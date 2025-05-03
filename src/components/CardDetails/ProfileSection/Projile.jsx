@@ -1,29 +1,28 @@
 import './Projile.css'
-import image from '../../../assets/images/risImage.png'
-import { IoShareSocialOutline } from "react-icons/io5";
-import { GoBookmark } from "react-icons/go";
+import ShareButton from '../../ShareButton';
+import SaveButton from '../../SaveButton';
 
 
-export default function Profile () {
-    return(
+export default function Profile({ id, customUrl, ownerName, ownerPPImgUrl, deadline }) {
+    return (
         <div className="profile-container">
             <div className="container">
                 <div className="details">
                     <p className='project-name'>Restoran idarəetmə sistemi</p>
                     <div className="photo-name">
-                        <img src={image} alt="Profile Image" />
-                        <p className='user-name'>Murad Fərəczadə</p>
+                        <img src={ownerPPImgUrl} alt="Profile Image" />
+                        <p className='user-name'>{ownerName}</p>
                     </div>
                     <div className="date">
-                        <p className='application-date'>Son müraciət tarixi: 01.04.2025 </p>
+                        <p className='application-date'>Son müraciət tarixi: {deadline} </p>
                     </div>
                 </div>
                 <div className="profile-icons">
                     <div className="share-icon">
-                        <IoShareSocialOutline />
+                        <ShareButton id={id} customUrl={customUrl} />
                     </div>
                     <div className="save-icon">
-                        <GoBookmark />
+                        <SaveButton />
                     </div>
                 </div>
             </div>

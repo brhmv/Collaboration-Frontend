@@ -1,19 +1,9 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import { IoShareSocialOutline, IoBookmarkOutline, IoBookmark } from "react-icons/io5";
-import { openShareModal } from '@/redux/slices/shareModalSlice'; // Adjust path as needed
-import SaveButton from '../SaveButton';
+import SaveButton from '@/components/SaveButton';
+import ShareButton from '../../../ShareButton';
 
 const CardHeader = ({ bgImg, type = 'project', saved, id, customUrl }) => {
-    const dispatch = useDispatch();
 
-    const handleShare = () => {
-        dispatch(openShareModal({
-            url: customUrl || window.location.href,
-            contentType: type,
-            contentId: id
-        }));
-    };
 
     return (
         <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
@@ -21,12 +11,8 @@ const CardHeader = ({ bgImg, type = 'project', saved, id, customUrl }) => {
                 <img src={bgImg} alt="background image" className="w-full h-full object-cover" />
             </div>
             <div className="absolute top-3 left-0 right-0 flex justify-between items-center px-3 z-20">
-                <button
-                    className="cursor-pointer text-[#000D26] bg-white rounded-full p-2 shadow-sm"
-                    onClick={handleShare}
-                >
-                    <IoShareSocialOutline className="text-xl" />
-                </button>
+
+                <ShareButton id={id} customUrl={customUrl} />
                 <SaveButton saved={saved} />
             </div>
 

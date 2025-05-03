@@ -1,12 +1,10 @@
 import React from 'react'
-import teamRoles from './data/teamRoles'
-
-const TeamRolesComponent = () => {
+const TeamRolesComponent = ({ teamRoles }) => {
   return (
     <div className='flex gap-[5px] flex-wrap'>
-        {teamRoles.map((item) => (
-        <span key={item.id} className='py-[8px] px-[16px] bg-(--orange-10) rounded-[8px] text-[16px]'>{item.count} {item.role}</span>
-        ))}
+      {teamRoles.map((item) => (
+        <span key={item.id} className='text-[clamp(10px,1.5vw,16px)] py-[clamp(5px,1vh,8px)] px-[clamp(10px,1vw,16px)] bg-[#FFDCCF] rounded-[8px] '>{item.count} {item.role}</span>
+      ))}
     </div>
 
   )

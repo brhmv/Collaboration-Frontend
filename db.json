@@ -898,5 +898,134 @@
             "profilePhoto": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250",
             "saved": true
         }
+    ],
+    "cardDetails": [
+        {
+            "id": "0",
+            "imgUrl": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "title": "Project Aurora",
+            "description": "Bu layihə restoranın gündəlik əməliyyatlarını avtomatlaşdırmaq məqsədi ilə hazırlanır. Sistem masa rezervasiyası, sifarişlərin idarə olunması və ödənişlərin izlənməsi funksiyalarını əhatə edir. İstifadəçilər menyudan seçim edərək sifarişi sistem üzərindən verə biləcəklər. Administratorlar məhsul əlavə edə, qiymət dəyişə və stok vəziyyətini izləyə biləcəklər. Həmçinin, sistem işçilərin növbələrini və iş qrafiklərini idarə etməyə imkan verir. Layihə Java ilə hazırlanacaq və masaüstü tətbiq formatında olacaq. İstifadəsi sadə, interfeysi intuitiv və istifadəçi dostu olacaq. Məqsəd müştəri xidmətini sürətləndirmək və restoran işinin effektivliyini artırmaqdır.",
+            "requirements": "Java SE və OOP ilə backend sahəsində təcrübə qazanmaq istəyənlər axtarılır. Sakit, fokuslu və komanda ritminə uyğunlaşa bilən namizədlərə üstünlük verilir. Sadə və funksional interfeys dizaynı hazırlaya bilən dizaynerlərə ehtiyac var. Problemləri təmkinlə analiz edən və panikadan uzaq yanaşma bizim üçün vacibdir. CRUD və Java ilə verilənlər bazasına bağlantı qurma bacarığı olan biri komandaya lazımdır.",
+            "startingDate": "01.02.2025",
+            "endingDate": "01.06.2025",
+            "customUrl": "http://localhost:5173/cardDetails",
+            "ownerName": "Murad Fereczade",
+            "ownerPPImgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg",
+            "deadline": "25.01.2006",
+            "teamRoles": [
+                {
+                    "id": "0",
+                    "count": 2,
+                    "role": "Frontend Developer"
+                },
+                {
+                    "id": "1",
+                    "count": 1,
+                    "role": "UI/UX Designer"
+                }
+            ],
+            "currentMembers": [
+                {
+                    "id": "0",
+                    "name": "Ferhad Nagiyev",
+                    "role": "UI/UX Designer",
+                    "imgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "customUrl": "http://localhost:5173/cardDetails",
+            "ownerName": "Murad Fereczade",
+            "ownerPPImgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg",
+            "deadline": "25.01.2006",
+            "imgUrl": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "title": "FitTrack",
+            "description": "Bu layihə istifadəçilərin fiziki fəaliyyətlərini və qida vərdişlərini izləməklə onların sağlamlıq məqsədlərinə çatmasına yardımçı olmaq üçün hazırlanır. FitTrack mobil tətbiqi AI əsaslı yemək tövsiyələri, məşq planları və gündəlik kalori hesablamaları təqdim edir. İstifadəçilər öz bədən ölçülərini, məqsədlərini və qida üstünlüklərini daxil etdikdə, sistem avtomatik şəkildə uyğun bir plan təqdim edir. Əlavə olaraq, tətbiq real vaxtda aktivlik izləməsi və geribildirim mexanizmləri ilə fərdi təcrübə yaradır.",
+            "requirements": "React Native mühitində mobil tətbiqetmə inkişaf etdirmək təcrübəsi olan və TensorFlow Lite kimi maşın öyrənməsi kitabxanaları ilə işləyə bilən developerlar axtarılır. İdeal namizəd mobil interfeyslərlə rahat işləməyi bacarmalı və fərdi sağlamlıq sahəsində maraqlı olmalıdır. UI performansı və sadə dizayn prinsiplərinə riayət etmək vacibdir.",
+            "startingDate": "05.03.2025",
+            "endingDate": "20.08.2025",
+            "teamRoles": [
+                {
+                    "id": "0",
+                    "count": 3,
+                    "role": "Mobile Developer"
+                }
+            ],
+            "currentMembers": [
+                {
+                    "id": "0",
+                    "name": "Lena Smith",
+                    "role": "Mobile Developer",
+                    "imgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "customUrl": "http://localhost:5173/cardDetails",
+            "ownerName": "Murad Fereczade",
+            "ownerPPImgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg",
+            "deadline": "25.01.2006",
+            "imgUrl": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "title": "EduSpace",
+            "description": "EduSpace layihəsi məsafədən təhsil alan tələbə və müəllimlər üçün nəzərdə tutulmuş interaktiv öyrənmə platformasıdır. Platforma istifadəçilərə video zəng, ekran paylaşımı, sənəd üzərində birgə işləmə və real vaxtda şərh yazma kimi imkanlar təqdim edir. Məqsəd, distant təhsili daha interaktiv və effektiv hala gətirməkdir. EduSpace istifadəçilərə dərs zamanı suallar vermək, dərsləri qeydə almaq və sonradan izləmək kimi üstünlüklər təqdim edəcək.",
+            "requirements": "MERN (MongoDB, Express.js, React, Node.js) stack üzrə bilikləri olan, WebRTC texnologiyası ilə təcrübəli backend developerlar və funksionallığı müxtəlif cihazlarda sınaqdan keçirə biləcək QA mühəndisləri axtarılır. Komanda işi, məsuliyyətlilik və texniki sənədləşdirmə bacarığı vacibdir.",
+            "startingDate": "10.04.2025",
+            "endingDate": "10.10.2025",
+            "teamRoles": [
+                {
+                    "id": "0",
+                    "count": 2,
+                    "role": "Backend Developer"
+                },
+                {
+                    "id": "1",
+                    "count": 1,
+                    "role": "QA Engineer"
+                }
+            ],
+            "currentMembers": [
+                {
+                    "id": "0",
+                    "name": "James Miller",
+                    "role": "Backend Developer",
+                    "imgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "customUrl": "http://localhost:5173/cardDetails",
+            "ownerName": "Murad Fereczade",
+            "ownerPPImgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg",
+            "deadline": "25.01.2006",
+            "imgUrl": "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+            "title": "GreenDash",
+            "description": "GreenDash layihəsi ağıllı kənd təsərrüfatı sahəsində istifadə edilən sensorların məlumatlarını izləmək və analiz etmək üçün hazırlanmış idarə panelidir. Sistem torpaq rütubəti, hava şəraiti, gübrə səviyyəsi kimi göstəriciləri real vaxtda toplayaraq vizual şəkildə istifadəçiyə təqdim edir. Əkinçilikdə məhsuldarlığın artırılması və resursların daha səmərəli istifadəsi üçün optimallaşdırma funksiyaları daxil ediləcək.",
+            "requirements": "IoT cihazlarının API-ləri ilə işləmə təcrübəsi olan mühəndislər və məlumatları vizual şəkildə analiz edə bilən data mütəxəssisləri axtarılır. Sensor texnologiyaları, MQTT/HTTP protokolları və məlumatların real vaxtda təqdimatı üzrə biliklər vacibdir. Dashboard dizaynına estetik yanaşma və funksionallıq balansı gözlənilir.",
+            "startingDate": "15.05.2025",
+            "endingDate": "15.09.2025",
+            "teamRoles": [
+                {
+                    "id": "0",
+                    "count": 1,
+                    "role": "Data Scientist"
+                },
+                {
+                    "id": "1",
+                    "count": 1,
+                    "role": "IoT Engineer"
+                }
+            ],
+            "currentMembers": [
+                {
+                    "id": "0",
+                    "name": "Ahmed Khan",
+                    "role": "IoT Engineer",
+                    "imgUrl": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
+                }
+            ]
+        }
     ]
 }

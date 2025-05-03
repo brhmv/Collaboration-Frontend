@@ -12,6 +12,7 @@ import { sendedProjectApplicationCardsApi } from '@/redux/slices/sendedProjectAp
 import { incomingProjectApplicationCardsApi } from '@/redux/slices/incomingProjectApplicationCardsSlice/index';
 import { sendedMentoriumApplicationCardsApi } from '@/redux/slices/sendedMentoriumApplicationCardsSlice/index';
 import { incomingMentoriumApplicationCardsApi } from '@/redux/slices/incomingMentoriumApplicationCardsSlice/index';
+import { cardDetailsApi } from '@/redux/slices/cardDetailsSlice/index';
 
 export const store = configureStore({
     reducer: {
@@ -27,6 +28,7 @@ export const store = configureStore({
         [incomingProjectApplicationCardsApi.reducerPath]: incomingProjectApplicationCardsApi.reducer,
         [sendedMentoriumApplicationCardsApi.reducerPath]: sendedMentoriumApplicationCardsApi.reducer,
         [incomingMentoriumApplicationCardsApi.reducerPath]: incomingMentoriumApplicationCardsApi.reducer,
+        [cardDetailsApi.reducerPath]: cardDetailsApi.reducer,
     },
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware()
@@ -39,6 +41,7 @@ export const store = configureStore({
             .concat(sendedMentoriumApplicationCardsApi.middleware)
             .concat(incomingProjectApplicationCardsApi.middleware)
             .concat(incomingMentoriumApplicationCardsApi.middleware)
+            .concat(cardDetailsApi.middleware)
 });
 
 setupListeners(store.dispatch);

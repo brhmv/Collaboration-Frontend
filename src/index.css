@@ -1,32 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 @import '@/styles/colors.css';
-/* @import '@/styles/resets.css'; */
 @import '@/styles/container.css';
 @import '@/styles/border.css';
 @import '@/styles/skeleton.css';
 @import '@/styles/box-shadow.css';
 @import '@/styles/double-border.css';
 @import "tailwindcss";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @font-face {
 	font-family: 'Futura New';
