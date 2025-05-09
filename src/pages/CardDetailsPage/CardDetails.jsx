@@ -6,7 +6,7 @@ import { useGetCardDetailsQuery } from '../../redux/slices/cardDetailsSlice';
 
 export default function CardDetails() {
     const { data } = useGetCardDetailsQuery(0); //id uygun olarak datanı fetch edir
-    console.log(data)
+
     return (
         <>
             <div className="card-details">
