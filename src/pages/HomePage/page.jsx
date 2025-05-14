@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector } from 'react-redux';
 import Navbar from '../../components/Home/Navbar/Navbar';
 import Header from '../../components/Home/Header/Header';
@@ -10,6 +9,7 @@ import ShareModal from '../../components/MALCard/ui/ShareModal';
 
 
 export default function HomePage() {
+
     const { showResults, filterOption } = useSelector(state => state.search);
     const {
         data: defaultCards,
@@ -25,7 +25,8 @@ export default function HomePage() {
             ) : (
                 <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-[clamp(16px,4vw,32px)] gap-y-[clamp(16px,4vh,32px)] mt-[70px]'>
                     {defaultCards && defaultCards.map(card => (
-                        <MALCard key={card.id} type={card.type}>
+                        <MALCard id={card.id} key={card.id} type={card.type}>
+
                             <MALCard.Header
                                 bgImg={card.bgImg}
                                 type={card.type}
@@ -52,14 +53,16 @@ export default function HomePage() {
                             <MALCard.Footer type={card.type}>
                                 {card.type === 'project' ? (
                                     <div className='flex gap-[clamp(12px,2vw,16px)]'>
-                                        <MALCard.Footer.DetailsButton />
+                                        <MALCard.Footer.DetailsButton id={card.id} />
                                         <MALCard.Footer.ApplyButton />
                                     </div>
                                 ) : (
                                     <MALCard.Footer.ApplyButton />
                                 )}
                             </MALCard.Footer>
+
                         </MALCard>
+
                     ))}
 
                 </div>

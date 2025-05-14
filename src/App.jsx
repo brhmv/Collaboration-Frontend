@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/cardDetails" element={<CardDetailsPage />} />
+        <Route path="/cardDetails/:id" element={<CardDetailsPage />} />
         <Route path="/createMentorium" element={<CreateMentoriumPage />}></Route>
         <Route path="/applications" element={<ApplicationsPage />}>
           <Route index element={<ProjectApplicationsPage />} />
