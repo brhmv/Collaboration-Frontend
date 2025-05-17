@@ -6,8 +6,8 @@ import { useGetCardDetailsQuery } from '../../redux/slices/cardDetailsSlice';
 import { useParams } from 'react-router';
 
 export default function CardDetails() {
-    const { data } = useGetCardDetailsQuery(0); //id uygun olarak datanı fetch edir
     const { id } = useParams();
+    const { data } = useGetCardDetailsQuery(id); //id uygun olarak datanı fetch edir
     return (
         <>
             <div className="card-details">
